@@ -3,7 +3,6 @@ let app = express();
 const port = process.env.PORT || 8080;
 let sqlquery= 0;
 
-
 app.get('/', (req, res) => {
   res.send('Hll11o!')
 })
